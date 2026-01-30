@@ -28,6 +28,7 @@ docker-compose exec app php artisan breeze:install react
 docker-compose exec app npm install react-router-dom --save-dev
 docker-compose exec app npm install bootstrap @popperjs/core --save-dev
 
+docker-compose exec app npm run build
 docker-compose exec app npm run dev -- --host
 
 Приложение доступно по адресу: http://localhost:8000
